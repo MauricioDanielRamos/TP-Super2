@@ -1,0 +1,72 @@
+
+header{
+    height: 10%;
+    text-align: center;
+}
+
+.titulos, .productos__precios__inputs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.titulos{
+    font-size: 30px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.productos, .precios, .inputs{
+    display: flex;
+    align-items: center;
+}
+
+.productos__lista, .precios__lista{
+    list-style-type: none;
+    font-size: 17px;
+    margin: 0;
+}
+
+footer{
+    height: 20%;
+    text-align: center;
+}
+
+body{
+    background-image: url(./../images/fondoCarrito.jfif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+footer a{
+    text-decoration: none;
+}
+.pie__de__pagina{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boton {
+    
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+    height: 40%;
+    width: 10%;
+    
+
+  }
+  
+  .boton:hover {
+    background-color: darkblue;
+  }
